@@ -1,0 +1,59 @@
+1. git init
+Đây là lệnh để bạn bắt đầu tạo một git repository rỗng tại folder hiện tại.
+Về căn bản, khi chạy lệnh này, một thư mực .git và các thu mục con liên quan
+sẽ được tạo ra tai thư mục hiện tại.
+
+2. git clone <url>
+git clone cũng là một lệnh rất thông dụng để bắt đầu với git.
+Khác với git init là khởi tạo git repository cho thư mục hiện
+tại thì git clone sẽ clone 1 repository đã được tạo sẵn về thư
+mục của bạn.Repository này sẽ được xác định ở tham số của git clone.
+
+3. git status
+Lệnh này cho phép chúng ta nắm được những thông tin cơ bản của nhánh hiện tại như:
+Nhánh có đang up-to-date
+Có gì cần pull/push/ commit hay không?
+Có file nào đã staged, unstaged hay untracked?
+Có file mới được tạo/sửa/xóa hay không?
+
+4. git add <files>
+Khi chúng ta thực hiện thay đổi trong repository (thêm/xóa/sửa file)
+những thay đổi này chỉ được thực hiện ở local.
+ Đế thêm những thay đổi này vào repository, chúng ta cần dùng lệnh git add
+
+5. git commit
+Khi chúng ta hoàn thành 1 task hoặc xử lý xong 1 issue nào đó, chúng ta cần lưu
+lại những gì mình đã làm. git commit có tác dụng ghi thay đổi này vào repository.
+Điều này giống như chúng ta tạo ra 1 checkpoint trong quá trình làm việc và có thể
+quay lại check point này bất cứ lúc nào.
+Chúng ta cũng cần một message ngắn để mô tả hoặc giải thích những gì chúng ta commit
+
+6. git push
+Sau khi commit những thay đổi, repository đã được cập nhật nhưng chỉ ở local,
+chúng ta cần gửi những thay đổi này lên remote server. Việc này sẽ được thực
+hiện bởi lệnh git push
+
+7. git pull
+git pull có tác dụng cập nhật những thay đổi trên remote repository về local.
+Nó là sự kết hợp của 2 lệnh git fetch và git merge. Cụ thể là khi pull, chúng
+ta cập nhật từ remote repository (git fetch) và đồng thời apply những thay đổi
+ mới nhất vào local (git merge)
+
+8. git remote
+Tác dụng: Để check remote/source bạn có hoặc add thêm remote
+
+Cách dùng: git remote để kiểm tra và liệt kê. Và git remote add <: remote_url:> để thêm.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
